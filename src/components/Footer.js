@@ -1,11 +1,9 @@
 import React from 'react'
 
-export default function Bio() {
+export default function Footer() {
     return (
         <div>
-    
-        <p>Bio Works</p>
-      
+            
         </div>
     )
 }
