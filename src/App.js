@@ -10,8 +10,6 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 
 //Custom Imports
 import Appearances from './pages/Appearances';
-import Podcast from './pages/Podcast';
-import YouTube from './pages/Youtube';
 import Support from './pages/Support';
 import MainPage from './components/MainPage';
 import BioPage from './components/BioPage';
@@ -80,14 +78,12 @@ class App extends Component {
       <Router>
       <Container>
       <Navbar fixed="top" bg="dark" expand="lg" variant="dark">
-      <Navbar.Brand href="#home"><img src={LifeBar} alt="logo" thumbnail style={{height: 100}}/></Navbar.Brand>
+      <Navbar.Brand href="#home"><img src={LifeBar} alt="logo" thumbnail style={{height: 100, marginLeft: 20}} className="logos"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
         <Link className="nav-link" to="/">Home</Link>
         <Link className="nav-link" to="/bio">Bio</Link>
-        <Link className="nav-link" to="/youtube">YouTube</Link>
-        <Link className="nav-link" to="/podcast">Podcast</Link>
         <Link className="nav-link" to="/appearances">Appearances</Link>
         <Link className="nav-link" to="/support">Support</Link>
         </Nav>
@@ -96,8 +92,6 @@ class App extends Component {
 
     <Route path='/' exact render={() => <MainPage description={this.state.mainpage.description}/>}/>
     <Route path='/bio' exact render={() => <BioPage header={this.state.bio.header} subtitle={this.state.bio.subtitle} description={this.state.bio.description} bioTwo={this.state.bio.bioTwo}/>}/>
-    <Route path='/youtube' exact render={() => <YouTube />}/>
-    <Route path='/podcast' exact render={() => <Podcast/>}/>
     <Route path='/appearances' exact render={() => <Appearances />}/>
     <Route path='/support' exact render={() => <Support/>}/>
 

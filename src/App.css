@@ -91,3 +91,13 @@
 .clickingArrow {
 margin-left: 200px;
 }
+
+.logos:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+
+}
+
+.rowTwoLogos {
+  margin-top: 20px;
+}
