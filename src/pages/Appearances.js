@@ -12,12 +12,12 @@ export default function Appearances() {
      <h1 className="description" style={{marginTop: 150}}>Recent Podcast Appearances</h1>
      <Row>
      <Col>
-     <img src={GenGap} alt="gengap" className="logos" style={{padding: 50}}/>
+     <a href="https://youtu.be/uVhRnn3n0TE"><img src={GenGap} alt="gengap" className="logos" style={{padding: 50}}/></a>
      <h3 class="appearancesText">Mister Behavior on <br></br>The Generational Gap (11/13/20)</h3>
      </Col>
      <Col>
-     <img src={EdsLogo} alt="edslogo" className="logos" style={{padding: 50, width: 300}} />
-     <h3 class="appearancesText">Mister Behavior on <br></br>Red and Ed show (11/16/20)</h3>
+     <a href="https://youtu.be/P5biZzJdURk"><img src={EdsLogo} alt="edslogo" className="logos" style={{padding: 50, width: 300}} /></a>
+     <h3 class="appearancesText" style={{marginTop: 40}}>Mister Behavior on <br></br>Red and Ed show (11/16/20)</h3>
      </Col>
      </Row>
      </Container>

@@ -7,7 +7,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 //Custom
 import ChibiLocs from '../images/ChibiLocs.png'
 import ClickArrow from '../components/ClickArrow'
-
+import BioComponent from '../components/BioComponent'
 
 function BioPage(props) {
     return (
@@ -20,7 +20,7 @@ function BioPage(props) {
         <img src={ChibiLocs} style={{width: 400}} alt="ChibiLocs"></img>
         </Col>
         <Col>
-        <p className="Biograph">{props.description}</p>
+        <BioComponent/>
         <ClickArrow/>
         </Col>
         </Row>
