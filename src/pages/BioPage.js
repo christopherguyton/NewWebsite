@@ -6,7 +6,7 @@ import {Container, Row, Col} from 'react-bootstrap'
 
 //Custom
 import ChibiLocs from '../images/ChibiLocs.png'
-import ClickArrow from './ClickArrow'
+import ClickArrow from '../components/ClickArrow'
 
 
 function BioPage(props) {

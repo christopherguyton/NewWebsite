@@ -12,7 +12,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Appearances from './pages/Appearances';
 import Support from './pages/Support';
 import MainPage from './components/MainPage';
-import BioPage from './components/BioPage';
+import BioPage from './pages/BioPage';
 import LifeBar from './images/LifeBar.png';
 import Footer from './components/Footer';
 
