@@ -56,13 +56,13 @@
 
 }
 
-.LogoContainer {
+/* .LogoContainer {
   margin-top: 50px;
   display: inline-block;
   align-items: center;
   align-content: center;
   text-align: center;
-}
+} */
 
 
 .Biograph {
@@ -81,10 +81,10 @@
   transition: 1s;
 
 }
-
+/* 
 .rowTwoLogos {
   margin-top: 20px;
-}
+} */
 
 .appearancesText {
 align-items: center;

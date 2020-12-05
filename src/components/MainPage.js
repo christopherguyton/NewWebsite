@@ -17,7 +17,7 @@ function MainPage(props) {
         <Col>
         <img src={LocsMan} alt="avatar" thumbnail style={{width: 400}}/>
         </Col>
-        <Col>
+        <Col className="sm-6">
         <h2 className="description">{props.description}</h2>
         <Container className="LogoContainer">
         <Row>
