@@ -1,6 +1,9 @@
 import React from 'react';
 import {Container, Row, Col} from 'react-bootstrap';
 import '../App'
+import {BrowserRouter as Router, Route, Link} from 'react-router-dom';
+
+import Spotify from '../pages/Spotify'
 
 import LocsMan from '../images/LocsManX.png';
 import YouTubeLogo from '../images/YoutubeLogo.png';
