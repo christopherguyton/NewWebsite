@@ -46,7 +46,7 @@ class App extends Component {
         }  
       ],
       mainpage: {
-        description: 'Society. Gaming. Music.',
+        description: 'Video Games. Music. Opinions.',
       },
       bio:  {
         header: 'Chris Locs A.K.A Mister Behavior',
@@ -71,7 +71,7 @@ class App extends Component {
       <Router>
       <Container>
       <Navbar collapseOnSelect fixed="top" bg="dark" expand="lg" variant="dark">
-      <Navbar.Brand href="/"><img src={LifeBar} alt="logo" thumbnail style={{height: 100, marginLeft: 20}} className="appearances"/></Navbar.Brand>
+      <Navbar.Brand href="/"><img src={LifeBar} alt="logo" thumbnail style={{height: 110, marginLeft: 20}} className="appearances"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
