@@ -71,7 +71,7 @@ class App extends Component {
       <Router>
       <Container>
       <Navbar collapseOnSelect fixed="top" bg="dark" expand="lg" variant="dark">
-      <Navbar.Brand href="/"><img src={LifeBar} alt="logo" thumbnail style={{height: 100, marginLeft: 20}} className="logos"/></Navbar.Brand>
+      <Navbar.Brand href="/"><img src={LifeBar} alt="logo" thumbnail style={{height: 100, marginLeft: 20}} className="appearances"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
