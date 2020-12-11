@@ -70,15 +70,15 @@ class App extends Component {
      
       <Router>
       <Container>
-      <Navbar fixed="top" bg="dark" expand="lg" variant="dark">
+      <Navbar collapseOnSelect fixed="top" bg="dark" expand="lg" variant="dark">
       <Navbar.Brand href="/"><img src={LifeBar} alt="logo" thumbnail style={{height: 100, marginLeft: 20}} className="logos"/></Navbar.Brand>
       <Navbar.Toggle aria-controls="basic-navbar-nav" />
       <Navbar.Collapse id="basic-navbar-nav">
         <Nav className="ml-auto">
-        <Link className="nav-link" to="/">Home</Link>
-        <Link className="nav-link" to="/bio">Bio</Link>
-        <Link className="nav-link" to="/appearances">Appearances</Link>
-        <Link className="nav-link" to="/support">Support</Link>
+        <Nav.Link eventKey="1" as={Link} to="/">Home</Nav.Link>
+        <Nav.Link eventKey="2" as={Link} to="/" to="/bio">Bio</Nav.Link>
+        <Nav.Link eventKey="3" as={Link} to="/" to="/appearances">Appearances</Nav.Link>
+        <Nav.Link eventKey="4" as={Link} to="/" to="/support">Support</Nav.Link>
         </Nav>
       </Navbar.Collapse>
     </Navbar>
