@@ -26,7 +26,7 @@ function MainPage(props) {
         <a href="https://www.twitch.tv/mrbehavior"><img src={TwitchLogo} alt="spotify" thumbnail style={{width: 110, height: 90, marginLeft: 70}} className="logos"/></a>
        
         <div className="rowTwoLogos">
-        <a href="https://twitter.com/RealMrBehavior"><img src={TwitterLogo} alt="twitter" thumbnail style={{width: 110, height: 90, marginLeft: 80}} className="logos"/></a>
+        <a href="https://twitter.com/RealMrBehavior"><img src={TwitterLogo} alt="twitter" thumbnail style={{width: 110, height: 90}} className="logos"/></a>
         <a href="https://misterbehavior.bandcamp.com/album/playlist-x"><img src={BandCampLogo} alt="bandcamp" thumbnail style={{width: 110, height: 90, marginLeft: 70}} className="logos"/></a>
         </div>
         </Row>
