@@ -79,12 +79,16 @@
 .logos:hover {
   transform: scale(1.2, 1.2);
   transition: 1s;
+  background-color: greenyellow;
+  border-radius: 10px;
+  border-width: 10;
 
 }
-/* 
-.rowTwoLogos {
-  margin-top: 20px;
-} */
+
+.appearances:hover {
+  transform: scale(1.2, 1.2);
+  transition: 1s;
+}
 
 .appearancesText {
 align-items: center;
