@@ -26,7 +26,7 @@ function MainPage(props) {
         <Container className="LogoContainer">
         <Row>
         <Col>
-        <a href="https://open.spotify.com/show/6KA6SqohjUvrrzlZDjIXuL?si=3P7glcofQ3iIZ7r8sf6oQQ"><FontAwesomeIcon icon={faSpotify} size="6x"/></a>
+        <a href="https://open.spotify.com/artist/62alsPIjErfHCfWAkRt5gm?si=FHP0bNYXRY2AI4TCNjEUfA"><FontAwesomeIcon icon={faSpotify} size="6x"/></a>
         </Col>
         <Col>
         <a href="https://www.youtube.com/channel/UCAegArzsmQ15lOKgSOU-ZHg?view_as=subscriber"><FontAwesomeIcon icon={faYoutube} size="6x"/></a>
