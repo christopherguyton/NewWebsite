@@ -4,7 +4,7 @@ import '../App'
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { fab } from '@fortawesome/free-brands-svg-icons';
 import { library } from '@fortawesome/fontawesome-svg-core';
-import {  faBandcamp, faSpotify, faTwitch, faYoutube, faTwitter, faFacebook } from '@fortawesome/free-brands-svg-icons';
+import {  faBandcamp, faSpotify, faTwitch, faYoutube } from '@fortawesome/free-brands-svg-icons';
 
 import LocsMan from '../images/LocsManX.png';
 
@@ -31,19 +31,13 @@ function MainPage(props) {
         <Col>
         <a href="https://www.youtube.com/channel/UCAegArzsmQ15lOKgSOU-ZHg?view_as=subscriber"><FontAwesomeIcon icon={faYoutube} size="6x"/></a>
         </Col>
-        <Col>
-        <a href="https://www.twitch.tv/mrbehavior"><FontAwesomeIcon icon={faTwitch} size="6x"/></a>
-        </Col>
         </Row>
         <Row>
         <Col>
-        <a href="https://twitter.com/RealMrBehavior"><FontAwesomeIcon icon={faTwitter} size="6x" className="logo"/></a>
+        <a href="https://www.twitch.tv/mrbehavior"><FontAwesomeIcon icon={faTwitch} size="6x"/></a>
         </Col>
         <Col>
         <a href="https://misterbehavior.bandcamp.com/album/playlist-x"><FontAwesomeIcon icon={faBandcamp} size="6x" /></a>
-        </Col>
-        <Col>
-        <a href="https://www.facebook.com/LocsTakes"><FontAwesomeIcon icon={faFacebook} size="6x" /></a>
         </Col>
         </Row>
         
