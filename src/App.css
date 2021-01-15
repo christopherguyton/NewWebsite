@@ -63,6 +63,7 @@
   align-items: center;
   align-content: center;
   text-align: center;
+ 
 }
 
 
@@ -121,6 +122,8 @@ justify-self: center;
    margin-left: 70px;
  }
 
-#spotify {
-  margin-bottom: 20px;
+#call-to-action {
+  margin-bottom: 1rem;
+  font-size: larger;
+  font-weight: bolder;
 }

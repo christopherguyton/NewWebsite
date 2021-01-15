@@ -25,6 +25,12 @@ function MainPage(props) {
         </Col>
         <Container className="LogoContainer">
         <Row>
+        <Col className="sm-8" id="call-to-action">
+        Check Out Content Below
+        </Col>
+        </Row>
+        <Row>
+        
         <Col>
         <a href="https://open.spotify.com/artist/62alsPIjErfHCfWAkRt5gm?si=FHP0bNYXRY2AI4TCNjEUfA"><FontAwesomeIcon icon={faSpotify} size="6x"/></a>
         </Col>
